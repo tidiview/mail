@@ -1,3 +1,7 @@
-name = "mail"
+name = "worker-mail-form"
 main = "src/index.ts"
 compatibility_date = "2022-06-15"
+
+kv_namespaces = [
+    { binding = "submit_plugin", preview_id = "fbf7a566102740ef9a2e588c19b527fa", id = "fbf7a566102740ef9a2e588c19b527fa" }
+]

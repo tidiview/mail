@@ -15,22 +15,22 @@ export default {
           {
             to: [
               {
-                email: "", // add your to email here
+                email: "francois.vidit@francois-vidit.com", // add your to email here
               },
             ],
-            dkim_domain: "", // add your domain
+            dkim_domain: "francois-vidit.fr", // add your domain
             dkim_selector: "mailchannels",
             dkim_private_key: env.DKIM_PRIVATE_KEY,
           },
         ],
         from: {
-          email: "", // add your from email here
+          email: "francois.vidit@francois-vidit.com", // add your from email here
         },
         subject: "Subject",
         content: [
           {
             type: "text/plain",
-            value: "message",
+            value: "message from me",
           },
         ],
       }),
